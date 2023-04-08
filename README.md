@@ -27,4 +27,3 @@ bus=can.interfaces.Bus(channel='인터페이스 이름', bustype='socketcan', bi
 msg = can.Message(arbitration_id = 0x200 data=[0x10, 0x20, 0x30, 0x40] is_extended_id=False)
 ```
 
-CAN 프레임 수신
